@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.4] - 2026-10-13
+
 ### Fixed
 
 - Declare `xhigh` and `max` in the `thinkingLevelMap` of each Cursor model when the live catalog offers them. Before this fix, pi hid both levels, and `cursor/grok-4.7` stopped at `high`.
@@ -71,7 +73,8 @@ Initial public release. Minimal pi extension that uses a Cursor SDK API key as a
 
 - Streamed assistant text and thinking accumulated into a single pi block per turn (Cursor emits one word per chunk; without this, each word rendered on its own line)
 
-[Unreleased]: https://github.com/morizkay/pi-cursor-auth/compare/v0.2.3...main
+[Unreleased]: https://github.com/morizkay/pi-cursor-auth/compare/v0.2.4...main
+[0.2.4]: https://github.com/morizkay/pi-cursor-auth/compare/v0.2.3...v0.2.4
 [0.2.3]: https://github.com/morizkay/pi-cursor-auth/compare/v0.2.2...v0.2.3
 [0.2.2]: https://github.com/morizkay/pi-cursor-auth/compare/v0.2.1...v0.2.2
 [0.2.0]: https://github.com/morizkay/pi-cursor-auth/compare/v0.1.2...v0.2.0
