@@ -13,7 +13,7 @@
     "check": "tsc --noEmit"
   },
   "dependencies": {
-    "@cursor/sdk": "1.0.27"
+    "@cursor/sdk": "1.2.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
